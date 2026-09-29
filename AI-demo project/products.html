@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glow &amp; Grace Beauty Studio - Products</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#FFFBF7] text-[#2C2825] font-sans antialiased flex flex-col min-h-screen">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-[#FFFBF7]/95 backdrop-blur-md border-b border-[#FBE8EC] shadow-sm">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3.5">
+        <div class="w-11 h-11 rounded-full bg-gradient-to-tr from-[#D4AF37] via-[#F3E5AB] to-[#E07A8B] p-[2px]">
+          <div class="w-full h-full bg-[#FFFBF7] rounded-full flex items-center justify-center">
+            <span class="font-serif font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#D4AF37] to-[#E07A8B] text-lg">G&amp;G</span>
+          </div>
+        </div>
+        <div class="flex flex-col">
+          <span class="font-serif text-2xl font-bold text-[#2C2825]">Glow &amp; Grace</span>
+          <span class="text-[10px] tracking-[0.25em] uppercase text-[#E07A8B] font-semibold">Beauty Studio</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
+        <a href="index.html" class="text-[#78716C] hover:text-[#E07A8B]">Home</a>
+        <a href="about.html" class="text-[#78716C] hover:text-[#E07A8B]">About Us</a>
+        <a href="services.html" class="text-[#78716C] hover:text-[#E07A8B]">Services</a>
+        <a href="products.html" class="text-[#E07A8B] font-semibold border-b-2 border-[#E07A8B] pb-1">Products</a>
+        <a href="contact.html" class="text-[#78716C] hover:text-[#E07A8B]">Contact Us</a>
+      </nav>
+
+      <a href="contact.html" class="px-6 py-2.5 rounded-full bg-gradient-to-r from-[#E07A8B] to-[#D4AF37] text-white text-sm font-semibold shadow-md hover:opacity-90 transition-opacity">
+        Book Appointment
+      </a>
+    </div>
+  </header>
+
+  <!-- Title -->
+  <section class="py-12 px-6 max-w-7xl mx-auto text-center">
+    <h1 class="font-serif text-4xl md:text-5xl font-bold mb-3">Beauty &amp; Skincare Products</h1>
+    <p class="text-[#78716C] text-lg max-w-xl mx-auto">Professional beauty products curated for your everyday glow.</p>
+  </section>
+
+  <!-- Product Grid -->
+  <section class="py-6 px-6 max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-20 w-full">
+    
+    <!-- Item 1 -->
+    <div class="bg-white rounded-2xl p-4 border border-[#FBE8EC] text-center space-y-3 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+      <div class="space-y-3">
+        <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=500&q=80" class="h-44 w-full object-cover rounded-xl" alt="Hydrating Face Serum" />
+        <span class="text-xs text-[#D4AF37] font-bold uppercase block">Skincare</span>
+        <h3 class="font-serif font-bold text-lg">Hydrating Face Serum</h3>
+        <p class="text-xs text-[#78716C]">Hyaluronic acid serum for smooth glow.</p>
+      </div>
+      <div class="flex items-center justify-between pt-2 border-t border-[#FBE8EC]/50">
+        <span class="font-bold text-[#E07A8B] text-lg">₹899</span>
+        <button onclick="alert('Item added to cart!')" class="px-4 py-1.5 bg-[#E07A8B] text-white text-xs font-semibold rounded-lg hover:bg-[#c96273] transition-colors">Add to Cart</button>
+      </div>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="bg-white rounded-2xl p-4 border border-[#FBE8EC] text-center space-y-3 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+      <div class="space-y-3">
+        <img src="https://images.unsplash.com/photo-1608248597261-e4d09042c11d?auto=format&fit=crop&w=500&q=80" class="h-44 w-full object-cover rounded-xl" alt="Vitamin C Face Cream" />
+        <span class="text-xs text-[#D4AF37] font-bold uppercase block">Skincare</span>
+        <h3 class="font-serif font-bold text-lg">Vitamin C Face Cream</h3>
+        <p class="text-xs text-[#78716C]">Brightening anti-aging moisturizer.</p>
+      </div>
+      <div class="flex items-center justify-between pt-2 border-t border-[#FBE8EC]/50">
+        <span class="font-bold text-[#E07A8B] text-lg">₹699</span>
+        <button onclick="alert('Item added to cart!')" class="px-4 py-1.5 bg-[#E07A8B] text-white text-xs font-semibold rounded-lg hover:bg-[#c96273] transition-colors">Add to Cart</button>
+      </div>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="bg-white rounded-2xl p-4 border border-[#FBE8EC] text-center space-y-3 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+      <div class="space-y-3">
+        <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=500&q=80" class="h-44 w-full object-cover rounded-xl" alt="Hair Repair Shampoo" />
+        <span class="text-xs text-[#D4AF37] font-bold uppercase block">Haircare</span>
+        <h3 class="font-serif font-bold text-lg">Hair Repair Shampoo</h3>
+        <p class="text-xs text-[#78716C]">Sulfate-free keratin strength wash.</p>
+      </div>
+      <div class="flex items-center justify-between pt-2 border-t border-[#FBE8EC]/50">
+        <span class="font-bold text-[#E07A8B] text-lg">₹599</span>
+        <button onclick="alert('Item added to cart!')" class="px-4 py-1.5 bg-[#E07A8B] text-white text-xs font-semibold rounded-lg hover:bg-[#c96273] transition-colors">Add to Cart</button>
+      </div>
+    </div>
+
+    <!-- Item 4 -->
+    <div class="bg-white rounded-2xl p-4 border border-[#FBE8EC] text-center space-y-3 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+      <div class="space-y-3">
+        <img src="https://images.unsplash.com/photo-1617897903246-719242758050?auto=format&fit=crop&w=500&q=80" class="h-44 w-full object-cover rounded-xl" alt="Moisturizing Lotion" />
+        <span class="text-xs text-[#D4AF37] font-bold uppercase block">Body Care</span>
+        <h3 class="font-serif font-bold text-lg">Moisturizing Lotion</h3>
+        <p class="text-xs text-[#78716C]">Deep hydrating shea butter lotion.</p>
+      </div>
+      <div class="flex items-center justify-between pt-2 border-t border-[#FBE8EC]/50">
+        <span class="font-bold text-[#E07A8B] text-lg">₹549</span>
+        <button onclick="alert('Item added to cart!')" class="px-4 py-1.5 bg-[#E07A8B] text-white text-xs font-semibold rounded-lg hover:bg-[#c96273] transition-colors">Add to Cart</button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#2C2825] text-white py-12 px-6 mt-auto">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+      <div>
+        <p class="font-serif text-2xl font-bold text-[#D4AF37] mb-2">Glow &amp; Grace</p>
+        <p class="text-xs text-[#78716C]">Ahmedabad's luxury beauty studio dedicated to enhancing your natural radiance.</p>
+      </div>
+      <div>
+        <p class="font-bold text-sm text-[#D4AF37] mb-3">Quick Navigation</p>
+        <ul class="space-y-1.5 text-xs text-gray-300">
+          <li><a href="index.html" class="hover:text-[#E07A8B] transition-colors">Home</a></li>
+          <li><a href="about.html" class="hover:text-[#E07A8B] transition-colors">About Us</a></li>
+          <li><a href="services.html" class="hover:text-[#E07A8B] transition-colors">Services</a></li>
+          <li><a href="products.html" class="hover:text-[#E07A8B] transition-colors">Products</a></li>
+          <li><a href="contact.html" class="hover:text-[#E07A8B] transition-colors">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="font-bold text-sm text-[#D4AF37] mb-3">Contact Details</p>
+        <p class="text-xs text-gray-300">123 Beauty Street, Ahmedabad, Gujarat</p>
+        <p class="text-xs text-gray-300 mt-1">+91 98765 43210 | hello@glowandgrace.com</p>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto text-center border-t border-white/10 mt-8 pt-4">
+      <p class="text-xs text-[#78716C]">&copy; 2026 Glow &amp; Grace Beauty Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
